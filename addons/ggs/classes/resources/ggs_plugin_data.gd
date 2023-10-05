@@ -7,8 +7,8 @@ var category_order: Array[ggsCategory]
 var recent_settings: Array[ggsSetting]
 var setting_list_cache: Array[ggsSetting]
 
-var dir_settings: String = "res://game_settings/settings"
-var dir_components: String = "res://game_settings/components"
+var dir_settings: String = "res://addons/ggs/settings"
+var dir_components: String = "res://addons/ggs/components"
 var dir_save_file: String = "user://setting.cfg"
 
 var split_offset_0: int = -225
@@ -53,8 +53,8 @@ func reset() -> void:
 	category_order.clear()
 	recent_settings.clear()
 	setting_list_cache.clear()
-	dir_settings = "res://game_settings/settings"
-	dir_components = "res://game_settings/components"
+	dir_settings = "res://addons/ggs/settings"
+	dir_components = "res://addons/ggs/components"
 	dir_save_file = "user://settings.cfg"
 	split_offset_0 = -225
 	split_offset_1 = 420
